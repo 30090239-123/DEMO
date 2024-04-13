@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    /* line-height: 5.23hv; */
+}
+.hero_section{
+    background-image: url('./images/images.jpeg');
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+
+}
+.text_area{
+    /* top: 100px; */
+
+    margin: 15px,auto;
+    padding: 100px;
+    color: bisque;
+    font-weight: 200;
+    font-size: 52px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.text_area h1 span{
+    font-size: 96px;
+    font-weight: 300px;
+}
+.blackbox{
+    background-color: black;
+    height: 200px;
+
+
+}
+.blackbox,.work,h1{
+    padding: 34px;
+    color: beige;
+    text-align: center;
+    font-size: 87px;
+    font-weight: 100;
+}
+.blackbox,.work,h1,span{
+    font-weight: 300;
+    font-size: 100px;
+}
+.your_work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 20px;
+    min-height: 600px;
+    
+}
+.grid_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:45px;
+    /* min-height: 600px; */
+}
+.cardconatiner{
+    max-width: 320px;
+    align-items: center;
+    /* height: 400p
+    x; */
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2) ;
+    
+}
+.cardconatiner:hover{
+    transform:scale(1.04) ;
+}
+.card_content{
+    padding: 20px;
+}
+.bottom_section{
+    height: 200px;
+    display: flex;
+    gap: 30px;
+}
+.about,.contact{
+    font-family: sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+}
+.about{
+    background-color: green;
+    color: beige;
+}
+.contact{
+    background-color: brown;
+    color: beige;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: end;
+}
+.footer{
+    height: 120px;
+    text-align: center;
+    
+}
